@@ -1,0 +1,59 @@
+* {
+    margin: 0 0;
+}
+
+.topo {
+    background-color:#52AEFF;
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    align-items:baseline;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nick {
+    margin: 10% 0% 5% 30%;
+}
+
+.descricao {
+    margin: 0% 0% 10% 30%;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    text-align: right;
+    margin: 0% 15% 0% 0%
+}
+
+.navegacao_link {
+    display: flex;
+    margin: 0% 10% 0% 0%;
+    text-decoration: none;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fundo {
+    position:absolute;
+    height: auto;
+    width:100%;
+    opacity: 30%;
+}
+
+.titulo {
+    font-weight: bold;
+    position: absolute;
+    margin: 5%;
+}
