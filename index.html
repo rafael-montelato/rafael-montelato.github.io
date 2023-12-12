@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto de Programador</title>
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./styles/index.css">
 </head>
 
 <body>
@@ -25,10 +26,32 @@
         </div>
        
         <div class="conteudo_site">
-            <div class="portifolio"><img class="imagem_portifilio" src="./ASSETS/programacao1.jpg" alt="imagem de tela com linguagens de programação" width="1005em"></div>
-            <div class="arte"><img class="imagem_arte" src="./ASSETS/arte1.jpg" alt="fotografia do mar" width="500em"></div>
-            <div class="blog"><img class="imagem_arte" src="./ASSETS/blog.jpg" alt="fotografia de pessoa utilizando notebook" width="500em"></div>
+            <div class="portifolio"><img class="imagem_portifilio" src="./ASSETS/programacao2.jpeg" alt="imagem de tela com linguagens de programação" width="340em" height="470em"></div>
+            <div class="arte"><img class="imagem_arte" src="./ASSETS/foto-desktop.jpg" alt="fotografia do mar" width="340em" height="470em"></div>
+            <div class="blog"><img class="imagem_arte" src="./ASSETS/blog-cortado.png" alt="fotografia de pessoa utilizando notebook" width="340em" height="470em"></div>
         </div>
+
+        <div class="carrossel">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                    <div class="swiper-slide"><img class="imagem_portifilio" src="./ASSETS/programacao.png" alt="imagem de tela com linguagens de programação" width="100em"></div>
+                    <div class="swiper-slide"><img class="imagem_arte" src="./ASSETS/foto-mobile.png" alt="fotografia do mar" width="100em"></div>
+                    <div class="swiper-slide"><img class="imagem_arte" src="./ASSETS/blog-mobile.png" alt="fotografia de pessoa utilizando notebook" width="100em"></div>
+                    ...
+                </div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+        
+
+            </div>
+        </div>
+
     </main>
 
     <footer class="footer_principal">
@@ -41,5 +64,16 @@
 
 
     <script src="./JS/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            slidesPerView: 1,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                clickable: 'true',
+            },
+        });
+    </script>
 </body>
 </html>
