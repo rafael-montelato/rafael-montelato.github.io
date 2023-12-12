@@ -22,7 +22,7 @@
 /* <<< MEDIA QUERY - DESKTOP >>> */
 
 .cabecalho{
-    padding: 5% 17% 0% 0%;
+    padding: 2% 17% 0% 0%;
     /*background-color:beige;*/
 }
 
@@ -35,7 +35,7 @@
 
 .cabecalho__menu__link{
     font-family: var(--fonte-principal);
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     color: var(--links-normal); 
     text-decoration: none;
