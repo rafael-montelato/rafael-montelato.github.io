@@ -89,6 +89,7 @@
     grid-row: 1;
     padding: 1% 15% 2% 16%;
     gap: 0.5em;
+    justify-content: center;
     /*background-color: #122e45;*/
 }
 
