@@ -28,14 +28,14 @@
 
 .cabecalho__menu{
     display: flex;
-    gap: 20px;
+    gap: 25px;
     justify-content: right;
     /*background-color:rgb(197, 224, 247)*/
 }
 
 .cabecalho__menu__link{
     font-family: var(--fonte-principal);
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     color: var(--links-normal); 
     text-decoration: none;
@@ -71,14 +71,14 @@
 .titulo {
     font-weight: 600;
     font-family: var(--fonte-principal);
-    font-size: 18px;
+    font-size: 22.5px;
     padding: 7% 0% 0% 0%;
     /*background-color:aquamarine;*/
 }
 
 .nick {
     font-family: var(--fonte-principal);
-    font-size: 15px;
+    font-size: 19px;
     font-weight: lighter;
     /*background-color: rgb(127, 255, 168);*/
 }
@@ -88,8 +88,7 @@
     /*grid-template-columns: auto auto;*/
     grid-row: 1;
     padding: 1% 15% 2% 16%;
-    gap: 0.5em;
-    justify-content: center;
+    gap: 0.6em;
     /*background-color: #122e45;*/
 }
 
@@ -111,7 +110,7 @@
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 17px;
     padding: 0 0 0.5% 0;
 }
 
@@ -120,7 +119,7 @@
     justify-content: center;
     list-style-type: none;
     font-family: var(--fonte-principal);
-    font-size: 11px;
+    font-size: 14px;
     padding: 0 0 1em 0;
 }
 
