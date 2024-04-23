@@ -22,7 +22,7 @@
 /* <<< MEDIA QUERY - DESKTOP >>> */
 
 .cabecalho{
-    padding: 2% 16% 0% 0%;
+    padding: 2% 17% 0% 0%;
     /*background-color:beige;*/
 }
 
@@ -35,7 +35,7 @@
 
 .cabecalho__menu__link{
     font-family: var(--fonte-principal);
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 600;
     color: var(--links-normal); 
     text-decoration: none;
@@ -65,20 +65,20 @@
 
 .item1 {
     grid-row: 1 / span 3;
-    padding: 0% 0% 0% 19%;
+    padding: 0% 0% 0% 5%;
 }
 
 .titulo {
     font-weight: 600;
     font-family: var(--fonte-principal);
-    font-size: 22.5px;
-    padding: 7% 0% 0% 0%;
+    font-size: 17px;
+    padding: 12% 0% 0% 0%;
     /*background-color:aquamarine;*/
 }
 
 .nick {
     font-family: var(--fonte-principal);
-    font-size: 19px;
+    font-size: 15px;
     font-weight: lighter;
     /*background-color: rgb(127, 255, 168);*/
 }
@@ -87,7 +87,7 @@
     display: grid;
     grid-template-columns: min-content auto;
     align-items: center;
-    padding: 2% 13% 2% 15%;
+    padding: 2% 15% 1% 15%;
     gap: 1em;
     /*background-color: #083fff;*/
 }
@@ -103,7 +103,7 @@
 }
 
 .foto_perfil {
-    width: 31em;
+    width: 25em;
 }
 
 .texto {
@@ -112,6 +112,28 @@
     color: var(--texto-principal);
     font-size: 20px;
     /*background-color: aqua;*/
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0 0 0.5% 0;
+}
+
+.footer_lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-family: var(--fonte-principal);
+    font-size: 12px;
+    padding: 0 0 1em 0;
+}
+
+.copyright {
+    padding-right: 0.5em;
 }
 
 /* <<< MEDIA QUERY - SMARTPHONE >>> */
