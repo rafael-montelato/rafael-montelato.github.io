@@ -1,4 +1,4 @@
-/* <<< FOLHA DE ESTILO DO FOTOGRAFIA >>>  */
+/* <<< FOLHA DE ESTILO DO TECNOLOGIA >>>  */
 
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
@@ -80,23 +80,45 @@
     font-family: var(--fonte-principal);
     font-size: 18px;
     font-weight: lighter;
+    padding-top: 0;
     /*background-color: rgb(127, 255, 168);*/
 }
 
-.conteudo_fotografia {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 1.5em;
+.barra_navegacao {
+    list-style-type: none;
+    margin: 70px 300px 0 300px;
+    padding: 0;
+    overflow: hidden;
+    /*border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;*/
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-size: 18px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
-
-.foto_container {
-    padding: 10px;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    gap: 5px;
-    background-color: #d5dadb;
-    width: 1100px;
-    border-radius: 15px;
+  
+.item_barra {
+    float: left;
+}
+  
+.item_barra > a,p {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+  
+.item_barra > a:hover:not(.active) {
+    color: var(--links-click);
+}
+  
+a.active {
+    color: white;
+    background-color: #04AA6D;
 }
 
 .footer {
@@ -105,7 +127,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 14px;
-    padding: 0 0 0.5% 0;
+    padding: 1% 0 0.5% 0;
 }
 
 .footer_lista {
@@ -119,61 +141,4 @@
 
 .copyright {
     padding-right: 0.5em;
-}
-
-/* <<< MEDIA QUERY - SMARTPHONE >>> */
-
-@media screen and (max-width: 1024px) {
-
-    .cabecalho{
-        padding: 7% 7% 7% 0%;
-        /*background-color:beige;*/
-    }
-
-    .grid-container {
-        padding: 0% 8% 0% 1%;
-        display: grid;
-        grid-template-columns: auto auto;
-        justify-content: space-between;
-        align-items: center;
-        /*background-color: #122e45;*/
-    }
-    
-    .titulo {
-        font-size: 20px;
-        padding: 13% 0% 0% 0%;
-    }
-
-    .logo {
-        width: 8em;
-        padding: 0 0.5em 0 0;
-    }
-
-    .nick {
-        font-family: var(--fonte-principal);
-        font-size: 16px;
-        font-weight: lighter;
-        /*background-color: rgb(127, 255, 168);*/
-    }
-
-    .conteudo_fotografia {
-        display: flex;
-        justify-content: center;
-        padding-bottom: 1.5em;
-    }
-    
-    .foto_container {
-        padding: 10px;
-        display: grid;
-        grid-template-columns: auto auto ;
-        
-        gap: 7px;
-        background-color: #d5dadb;
-        width: 400;
-        border-radius: 15px;
-    }
-
-    .foto {
-        width: 192px;
-    }
 }

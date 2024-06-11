@@ -71,14 +71,14 @@
 .titulo {
     font-weight: 600;
     font-family: var(--fonte-principal);
-    font-size: 17px;
+    font-size: 20px;
     padding: 12% 0% 0% 0%;
     /*background-color:aquamarine;*/
 }
 
 .nick {
     font-family: var(--fonte-principal);
-    font-size: 15px;
+    font-size: 18px;
     font-weight: lighter;
     /*background-color: rgb(127, 255, 168);*/
 }
